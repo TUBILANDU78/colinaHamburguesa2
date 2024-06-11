@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  font-family: 'Arial, sans-serif';
+}
+
+header {
+  @apply bg-primary text-white p-4 flex justify-between items-center;
+}
+
+/* Contact Form */
+.contact__container {
+  @apply bg-gray-200 mt-12 p-6;
+}
+
+.contact__form {
+  @apply space-y-6;
+}
+
+.contact__form-control {
+  @apply mb-6;
+}
+
+.contact__form-control label {
+  @apply block mb-2;
+}
+
+.contact__form-control input {
+  @apply form-input mt-1 block w-full;
+}
+
+.contact__form-control small {
+  @apply text-error hidden;
+}
+
+.contact__form button {
+  @apply w-full py-2 bg-primary text-white rounded;
+}
+
+@layer components {
+  .form-input {
+    @apply bg-gray-200 border rounded p-2;
+  }
+}
+
+
+/* Table */
+.winners__table {
+  @apply mt-12 w-full text-left border-collapse;
+}
+
+.winners__table th, .winners__table td {
+  @apply border-b-2 p-2;
+}
+
+.winners__table th {
+  @apply bg-gray-100;
+}
+
+.winners__table a {
+  @apply text-primary;
+}

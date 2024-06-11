@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Colina de la Hamburguesa | Participantes</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/colinaHamburguesa_favicon_32x32.png"> 
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="./assets/styles/main.scss" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="bg-primary p-4">
+      <div class="container mx-auto flex items-center justify-between">
+        <a href="index.html">
+          <img src="./assets/images/colinaHamburguesa_logo_completo_350x150.png" alt="Logo" class="w-[350px] h-[150px]">
+        </a>
+        <button class="navbar-toggler" type="button">
+          <span class="fas fa-bars"></span>
+        </button>
+        <div class="flex space-x-4">
+          <a class="text-white" href="participantes.html">Participantes</a>
+          <a class="text-white" href="#">Reglas</a>
+          <a class="text-white" href="historia.html">Historia</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="m-12">
+    <h2 class="text-center uppercase pb-5">Los contendientes</h2>
+    <div class="flex flex-wrap gap-8">
+        <img src="assets/images/participantes-01.jpg" alt="Imagen de Bea Lara" class="w-full h-48 object-cover">
+        <include src="participant-card.html" name="Bea Lara" description="Hamburguesa de cecina con chutney de pera y dátiles." details="Con la heterodoxia por bandera, esta joven cocinera emigrada desde la cercana Elche propone combinar ingredientes de su tierra de origen y de la huerta murciana con una proteína plenamente castellana. Sin duda, una propuesta llena de valentía."></include>
+
+        <img src="assets/images/participantes-02.jpg" alt="Imagen de Marisa de la Torre" class="w-full h-48 object-cover">
+        <include src="participant-card.html" name="Marisa de la Torre" description="Hamburguesa vegana de tofu, remolacha y seitán empanado." details="Propuesta netamente vegetal, marítima y alternativa. Marisa aporta frescura y naturalidad entre panes de centeno con semillas de amapola.
+        Con cada vez más adeptos en su local Tierra y Mar, pretende demostrar que otra hamburguesa es posible."></include>
+
+        <img src="assets/images/participantes-03.jpg" alt="Imagen de Eustaquio Ramírez" class="w-full h-48 object-cover">
+        <include src="participant-card.html" name="Eustaquio Ramírez" description="Hamburguesa de secreto y pluma ibéricos con rábanos encurtidos." details="Las generaciones del pasado también prueban los gustos del presente. Una interesante mezcla de cortes de cerdo junto a la potencia de los encurtidos.
+        Veremos si Eustaquio, de la misma Murcia, da una lección a los jóvenes."></include>
+ 
+        <img src="assets/images/participantes-04.jpg" alt="Imagen de Lina Dubarre" class="w-full h-48 object-cover">
+        <include src="participant-card.html" name="Lina Dubarre" description="Hamburguesa de ternera madurada, rebozuelos y trompetas de la muerte." details="Nacida en el sur de Francia pero afincada en Calasparra desde los 3 años, Lina ofrece sencillez no exenta de dificultad. Carne y setas. ¡Pero vaya setas! 
+        Escoger el punto óptimo de maduración del vacuno puede ser crucial."></include>
+
+        <img src="assets/images/participantes-05.jpg" alt="Imagen de Khan Lao" class="w-full h-48 object-cover">
+        <include src="participant-card.html" name="Khan Lao" description="Hamburguesa de pato con noodles fritos y wasabi." details="Las aves aparecen en el concurso con este joven cocinero de padres vietnamitas que propone nada menos que pato chino aderezado con pasta como sorprendete aderezo. 
+        El picante wasabi y una mezcla secreta de especias aportarán magia"></include>
+
+        <img src="assets/images/participantes-06.jpg" alt="Imagen de Alfredo Barry" class="w-full h-48 object-cover">
+        <include src="participant-card.html" name="Alfredo Barry" description="Hamburguesa de buey Wagyu con kale y mandarinas." details="Carnívora propuesta en inicio y dulce al final. La duda es qué se impondrá: la protencia de la proteína o la suavidad del cítrico. Alfredo fusiona la barbacoa de Texas con Japón y la terreta.
+        Toda una declaración de intenciones no apta para pusilánimes."></include>
+    </div>
+  </main>
+</body>
+</html>

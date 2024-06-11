@@ -1,0 +1,147 @@
+body {
+    font-family: sans-serif;
+    background-color: white;
+    margin: 0 30px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    color: black;
+}
+
+nav a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a.active {
+    color: white;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: smaller;
+}
+
+.intro {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.intro h1 {
+    margin: 0;
+}
+
+.intro p {
+    color: grey;
+}
+
+.image-section {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.image-section img {
+    width: calc(100% - 60px);
+    border-radius: 10px;
+}
+
+.recipes {
+    margin-top: 100px;
+}
+
+.recipes h2 {
+    color: black;
+}
+
+.recipes p {
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin: 0 0 20px 0;
+}
+
+.media {
+    display: flex;
+    align-items: center;
+}
+
+.media img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.media-text h4 {
+    margin: 0;
+    color: black;
+}
+
+.media-text p {
+    color: grey;
+    margin: 5px 0 0 0;
+}
+
+hr {
+    border: 0.5px solid grey;
+    margin-top: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.footer-left p {
+    margin: 0;
+}
+
+.footer-left .social-media {
+    margin-top: 10px;
+}
+
+.footer-left .social-media a {
+    margin-right: 5px;
+}
+
+.footer-right table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.footer-right th, .footer-right td {
+    text-align: left;
+    padding: 5px 0;
+}
+
+.footer-right th {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.footer-right td {
+    color: black;
+}
